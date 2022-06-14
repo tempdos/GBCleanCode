@@ -56,15 +56,79 @@
 		579B147228583F9C0086B637 /* GBCleanCode */ = {
 			isa = PBXGroup;
 			children = (
-				579B147328583F9C0086B637 /* AppDelegate.swift */,
-				579B147528583F9C0086B637 /* SceneDelegate.swift */,
-				579B147728583F9C0086B637 /* ViewController.swift */,
-				579B147928583F9C0086B637 /* Main.storyboard */,
-				579B147C28583F9F0086B637 /* Assets.xcassets */,
-				579B147E28583F9F0086B637 /* LaunchScreen.storyboard */,
-				579B148128583F9F0086B637 /* Info.plist */,
+				57A612FE2858A90B00C6CFE5 /* Environments */,
+				57A612FD2858A90500C6CFE5 /* Resources */,
+				57A612FC2858A8FF00C6CFE5 /* Core */,
+				57A612F62858A8C700C6CFE5 /* App */,
 			);
 			path = GBCleanCode;
+			sourceTree = "<group>";
+		};
+		57A612F62858A8C700C6CFE5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				57A612FB2858A8F700C6CFE5 /* Flows */,
+				57A612FA2858A8EF00C6CFE5 /* Assembly */,
+				57A612F92858A8E400C6CFE5 /* Entity */,
+				57A612F72858A8D000C6CFE5 /* BusinessLogic */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		57A612F72858A8D000C6CFE5 /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BusinessLogic;
+			sourceTree = "<group>";
+		};
+		57A612F92858A8E400C6CFE5 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		57A612FA2858A8EF00C6CFE5 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		57A612FB2858A8F700C6CFE5 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				579B147328583F9C0086B637 /* AppDelegate.swift */,
+				579B147528583F9C0086B637 /* SceneDelegate.swift */,
+				579B147928583F9C0086B637 /* Main.storyboard */,
+				579B147E28583F9F0086B637 /* LaunchScreen.storyboard */,
+				579B147728583F9C0086B637 /* ViewController.swift */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		57A612FC2858A8FF00C6CFE5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		57A612FD2858A90500C6CFE5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				579B147C28583F9F0086B637 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		57A612FE2858A90B00C6CFE5 /* Environments */ = {
+			isa = PBXGroup;
+			children = (
+				579B148128583F9F0086B637 /* Info.plist */,
+			);
+			path = Environments;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
